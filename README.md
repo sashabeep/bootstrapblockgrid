@@ -15,7 +15,7 @@ Tired of amount of classes you should apply to each column in bootatrap?
 </div>
 ```
 
-### Dead simple!
+### Dead simple solution!
 
 Control number of columns by adding class to your **.row**
 
@@ -32,30 +32,25 @@ Control number of columns by adding class to your **.row**
 </div>
 ```
 
-```markdown
-Syntax highlighted code block
+### How to do this?
 
-# Header 1
-## Header 2
-### Header 3
+1. Include ```bootatrap-block.css``` from ```/dist/``` directory of this repository
+2. Apply "up-to" classes to your row which define number of columns on particular breakpoint
+3. That's it
 
-- Bulleted
-- List
+### Customizing
 
-1. Numbered
-2. List
+By default, css was compiled with default bootstrap breakpoints.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sass
+$breakpoints: ( xs: 576px,
+sm: 768px,
+md: 992px,
+lg: 1200px);
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Feel free to change source SCSS from ```/src/``` directory of this repository
 
-### Jekyll Themes
+### If it helps?
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sashabeep/bootstrapblockgrid/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Donate a couple of bucks on [paypal](https://www.paypal.me/sashabeep) if you wanted.
