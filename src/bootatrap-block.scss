@@ -111,10 +111,14 @@ $breakpoint: map-get($breakpoints, sm);
 }
 
 @mixin return-box($name){
+    div[class^="#{$name}-up-"], div[class*=" #{$name}-up-"]
+    {
+        @include flex-wrap(wrap)
+    }
      @for $i from 1 through 12 {
-        .#{$name}-up-#{$i}{
-            @include flex-wrap(wrap)
-        }
+        //.#{$name}-up-#{$i}{
+        //    @include flex-wrap(wrap)
+        //}
         .#{$name}-up-#{$i} > .col{
             @include flex( 0 0 (100%/#{$i}) );
             max-width: (100%/#{$i});
