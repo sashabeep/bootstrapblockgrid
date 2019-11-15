@@ -46,7 +46,7 @@ Control number of columns by adding class to your **.row**
 
 ### About .col-xs
 
-**.col-xs** classes was removed from Bootstrap 4. But you still can choose amount of columns in a row for the screen width <576px using ```xs-up-N``` classes.
+**.col-xs** classes was removed from Bootstrap 4. But you still can choose amount of columns in a row for the screen width <576px using ```row xs-up-N``` classes.
 
 ### Customizing
 
