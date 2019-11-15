@@ -44,7 +44,7 @@ Control number of columns by adding class to your **.row**
 
 5, 7, 11 columns in row? No problem!
 
-### About .col-xs
+### About extra small size
 
 **.col-xs** classes was removed from Bootstrap 4. But you still need to set amount of columns in a row for the screen width <576px using ```row xs-up-N``` classes to prevent horizontal stacking.
 
