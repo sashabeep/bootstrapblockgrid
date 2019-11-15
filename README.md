@@ -5,12 +5,12 @@ Tired of amount of classes you should apply to each column in bootstrap?
 ```html
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
     </div>
 </div>
 ```
