@@ -48,6 +48,27 @@ Control number of columns by adding class to your **.row**
 
 **.col-xs** classes was removed from Bootstrap 4. But you still need to set amount of columns in a row for the screen width <576px using ```row xs-up-N``` classes to prevent horizontal stacking.
 
+To prevent this behavior when you are not want to use extra small classes add this styles at the end of css file:
+```css
+@media (max-width: 575.98px) {
+	div[class*="-up-"] {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap
+	}
+	div[class*="-up-"] > .col {
+		-webkit-box-flex: 0 0 100%;
+		-moz-box-flex: 0 0 100%;
+		-webkit-flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%
+	}
+}
+```
+That will made all the columns in row 100% width on the screen <576px. Be careful with class names containing "**-up-**" substring in this case.
+
 ### Customizing
 
 By default, css is compiled with default bootstrap breakpoints.
