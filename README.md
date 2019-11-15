@@ -36,7 +36,7 @@ Control number of columns by adding class to your **.row**
 
 ### How to do this?
 
-1. Include ```bootatrap-block.css``` from ```/dist/``` directory of this repository
+1. Include ```bootatrap-block.css``` from ```/dist/``` directory of this [repository](https://github.com/sashabeep/bootstrapblockgrid)
 2. Apply "up-to" classes to your row which defines number of columns on particular breakpoint
 3. That's it
 
@@ -56,7 +56,7 @@ md: 992px,
 lg: 1200px);
 ```
 
-Feel free to change source SCSS from ```/src/``` directory of this repository.
+Feel free to change source SCSS from ```/src/``` directory of this [repository](https://github.com/sashabeep/bootstrapblockgrid)
 
 Mixins for responsive breakpoints was taken from https://glennmccomb.com/articles/useful-sass-scss-media-query-mixins-for-bootstrap/
 
