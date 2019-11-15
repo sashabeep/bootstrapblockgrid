@@ -56,7 +56,8 @@ md: 992px,
 lg: 1200px);
 ```
 
-Feel free to change source SCSS from ```/src/``` directory of this repository
+Feel free to change source SCSS from ```/src/``` directory of this repository.
+Mixins for responsive breakpoints taken from https://glennmccomb.com/articles/useful-sass-scss-media-query-mixins-for-bootstrap/
 
 ### If it helps?
 
