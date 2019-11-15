@@ -1,8 +1,19 @@
-## Welcome to GitHub Pages
+## Bootstrap 4 block grid
 
-You can use the [editor on GitHub](https://github.com/sashabeep/bootstrapblockgrid/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Tired of amount of classes you should apply to each column in bootatrap?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+```html
+<div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        </div>
+</div>
+```
 
 ### Markdown
 
