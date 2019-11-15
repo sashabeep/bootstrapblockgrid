@@ -38,6 +38,10 @@ Control number of columns by adding class to your **.row**
 2. Apply "up-to" classes to your row which define number of columns on particular breakpoint
 3. That's it
 
+### Every number from 1 to 12
+
+5, 7, 11 columns in row? No problem!
+
 ### Customizing
 
 By default, css is compiled with default bootstrap breakpoints.
