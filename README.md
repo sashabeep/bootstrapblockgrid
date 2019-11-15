@@ -4,20 +4,33 @@ Tired of amount of classes you should apply to each column in bootatrap?
 
 ```html
 <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
-        </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-lg-2">Col</div>
+    </div>
 </div>
 ```
 
-### Markdown
+### Dead simple!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Control number of columns by adding class to your **.row**
+
+```html
+<div class="container">
+    <div class="row xs-up-1 sm-up-2 md-up-3 lg-up-4 xl-up-6">
+        <div class="col">Col</div>
+        <div class="col">Col</div>
+        <div class="col">Col</div>
+        <div class="col">Col</div>
+        <div class="col">Col</div>
+        <div class="col">Col</div>
+    </div>
+</div>
+```
 
 ```markdown
 Syntax highlighted code block
