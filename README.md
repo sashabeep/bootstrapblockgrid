@@ -31,6 +31,8 @@ Control number of columns by adding class to your **.row**
     </div>
 </div>
 ```
+### DEMO
+![](demo.gif)
 
 ### How to do this?
 
