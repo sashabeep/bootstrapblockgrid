@@ -37,7 +37,7 @@ Control number of columns by adding class to your **.row**
 ### How to do this?
 
 1. Include ```bootatrap-block.css``` from ```/dist/``` directory of this [repository](https://github.com/sashabeep/bootstrapblockgrid)
-2. Apply "up-to" classes to your row which defines number of columns on particular breakpoint
+2. Add "up-to" classes to your row which defines number of columns on particular breakpoint
 3. That's it
 
 ### Every number from 1 to 12
