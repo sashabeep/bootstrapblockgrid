@@ -1,6 +1,6 @@
 ## Bootstrap 4 block grid
 
-Tired of amount of classes you should apply to each column in bootatrap?
+Tired of amount of classes you should apply to each column in bootstrap?
 
 ```html
 <div class="container">
