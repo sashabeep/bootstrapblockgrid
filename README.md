@@ -40,7 +40,7 @@ Control number of columns by adding class to your **.row**
 
 ### Customizing
 
-By default, css was compiled with default bootstrap breakpoints.
+By default, css is compiled with default bootstrap breakpoints.
 
 ```sass
 $breakpoints:
