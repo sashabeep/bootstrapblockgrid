@@ -43,7 +43,8 @@ Control number of columns by adding class to your **.row**
 By default, css was compiled with default bootstrap breakpoints.
 
 ```sass
-$breakpoints: ( xs: 576px,
+$breakpoints:
+(xs: 576px,
 sm: 768px,
 md: 992px,
 lg: 1200px);
