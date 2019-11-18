@@ -18,7 +18,8 @@ Tired of amount of classes you should apply to each column in bootstrap?
 ### Dead simple solution!
 
 Control number of columns by adding class to your **.row**
-Define at least number of columns for extra small and small screens, or number for all breakpoint ranges:
+
+Define at least number of columns per line for extra small and small screens, or number for all breakpoint ranges:
 
 ```html
 <div class="container">
