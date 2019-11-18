@@ -51,7 +51,7 @@ Define at least number of columns per line for extra small and small screens, or
 ### How to do this?
 
 1. Include ```bootatrap-block.css``` from ```/dist/``` directory of this [repository](https://github.com/sashabeep/bootstrapblockgrid). Minified version is also available.
-2. Add "up-to" classes to your row which defines number of columns on particular breakpoint
+2. Add "up-to" classes to your row which defines number of columns per line on particular breakpoint
 3. That's it
 
 ### Every number from 1 to 12
@@ -85,7 +85,7 @@ That will made all the columns in row 100% width on the screen <576px. Be carefu
 
 ### Customizing
 
-By default, css is compiled with default bootstrap breakpoints.
+By default, css is compiled with default bootstrap breakpoints. All the breakpoints, except **xs** uses ```min-width``` declarations.
 
 ```sass
 $breakpoints:
