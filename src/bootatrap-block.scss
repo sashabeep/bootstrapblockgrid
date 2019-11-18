@@ -131,13 +131,13 @@ $breakpoint: map-get($breakpoints, sm);
 @include respond-below(xs) {
     @include return-box(xs);
 }
-@include respond-between(xs,sm) {
+@include respond-above(xs) {
     @include return-box(sm);
 }
-@include respond-between(sm,md) {
+@include respond-above(sm) {
     @include return-box(md);
 }
-@include respond-between(md,lg) {
+@include respond-above(md) {
     @include return-box(lg);
 }
 @include respond-above(lg) {
