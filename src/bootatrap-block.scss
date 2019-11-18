@@ -95,7 +95,6 @@ $breakpoint: map-get($breakpoints, sm);
 }
 
 @mixin flex($values) {
-    //-webkit-box-flex: 0;
     -webkit-box-flex: $values;
      -moz-box-flex: $values;
       -webkit-flex: $values;
@@ -116,9 +115,6 @@ $breakpoint: map-get($breakpoints, sm);
         @include flex-wrap(wrap)
     }
      @for $i from 1 through 12 {
-        //.#{$name}-up-#{$i}{
-        //    @include flex-wrap(wrap)
-        //}
         .#{$name}-up-#{$i} > .col{
             @include flex( 0 0 (100%/#{$i}) );
             max-width: (100%/#{$i});
