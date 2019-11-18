@@ -32,7 +32,7 @@ Define at least number of columns for extra small and small screens, or number f
     </div>
 </div>
 
-<!--or without specifying all the ranges1 col for xs, 2 for sm, md, 4 for lg and up-->
+<!--or without specifying all the ranges: 1 col for xs, 2 for sm, md, 4 for lg and up-->
 <div class="container">
     <div class="row xs-up-1 sm-up-2 lg-up-4">
         <div class="col">Col</div>
