@@ -50,7 +50,7 @@ Define at least number of columns per line for extra small and small screens, or
 
 ### How to do this?
 
-1. Include ```bootatrap-block.css``` from ```/dist/``` directory of this [repository](https://github.com/sashabeep/bootstrapblockgrid). Minified version is also available.
+1. Include ```bootstrap-block.css``` from ```/dist/``` directory of this [repository](https://github.com/sashabeep/bootstrapblockgrid). Minified version is also available.
 2. Add "up-to" classes to your row which defines number of columns per line on particular breakpoint
 3. That's it
 
